@@ -1,0 +1,80 @@
+body {
+    box-sizing: border-box;
+    background-color: rgb(104,187,285);
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+/* Header */
+#header {
+    height: 5vh;
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(9,30,45);
+}
+#container {
+    width: 100vw;
+    margin: 2em 0;
+    height: 85vh;
+}
+/* left box */
+#left-box {
+    float: left;
+    background-color: rgb(9,30,45);
+    color: #ffffff;
+    width: 35%;
+    display: block;
+    min-height: 85vh;
+    padding: 1em;
+    box-sizing: border-box;
+}
+#left-box p, #left-box h3{
+    padding: 1em;
+}
+figure {
+    text-align: center;
+}
+img {
+    max-width: 12em;
+    border-radius: 50%;
+}
+/* right box */
+#right-box {
+    float: right;
+    width: 65%;
+    color: rgb(9,30,45);
+    min-height: 85vh;
+    box-sizing: border-box;
+
+}
+#experiences-box, #studies-box {
+    background-color: #ffffff;
+    padding: 1em;
+}
+#experiences-box h2 {
+    margin-top: 0;
+} 
+/* footer */
+footer {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 2em;
+    max-height: 10vh;    
+    min-width: 100vw;
+    display: inline-block;
+}
+/* MEDIA QUERIES  */
+@media screen and (min-width: 200px) and (max-width: 480px) { 
+    #right-box {
+        width: 100vw;
+    }
+    #left-box {
+        width: 100vw;
+        padding-bottom: 4em;
+    }
+    #left-box ul{
+        padding-right: 1em;
+    }
+}
+    
